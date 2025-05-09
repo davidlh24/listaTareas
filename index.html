@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Tareas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="mostrarFecha()">
+    <div class="contenedor">
+      <h1>Mi Lista de Tareas</h1>
+      <h2 id="fecha_id"></h2>
+      <input type="text" id="input_id" placeholder="Escribe tu tarea..." />
+      <p class="btn" onclick="agregar()">Agregar Tarea</p>
+      <div id="contenedor_tareas"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
